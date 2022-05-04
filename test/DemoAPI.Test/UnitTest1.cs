@@ -12,7 +12,7 @@ namespace DemoAPI.Test
         public void GetRetrunValues()
         {
             var returnValue = _controller.Get(1);
-            Assert.Equal("Pat", returnValue.Value);
+            Assert.Equal("Patyk Demo Deploy", returnValue.Value);
         }
 
         [Fact]
