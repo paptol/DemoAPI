@@ -32,7 +32,7 @@ namespace DemoAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Pat";
+            return "Patyk Demo Deploy";
         }
     }
 }
