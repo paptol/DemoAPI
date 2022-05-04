@@ -12,7 +12,7 @@ namespace DemoAPI.Test
         public void GetRetrunValues()
         {
             var returnValue = _controller.Get(1);
-            Assert.Equal("Pas", returnValue.Value);
+            Assert.Equal("Pat", returnValue.Value);
         }
 
         [Fact]
